@@ -11,7 +11,6 @@ class RandomName():
 		
 		return val1 + val2;
 
-
 rand = RandomName()
 result = rand.GenerateRandomName()
 
