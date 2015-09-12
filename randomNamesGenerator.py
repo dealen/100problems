@@ -12,5 +12,4 @@ class RandomName:
 
 rand = RandomName()
 result = rand.generate_random_name()
-
 print(result)
