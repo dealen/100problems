@@ -10,7 +10,6 @@ class RandomName:
         val2 = choice(self.list2)
         return val1 + val2
 
-
 rand = RandomName()
 result = rand.generate_random_name()
 
