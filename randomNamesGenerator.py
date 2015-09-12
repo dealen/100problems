@@ -1,5 +1,7 @@
 from random import choice
 
+__author__ = 'dealen'
+
 
 class RandomName:
     list1 = ["Ar", "Gor", "Mak", "Vlo", "Dur", "Mur"]
