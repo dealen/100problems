@@ -1,3 +1,5 @@
+__author__ = 'dealen'
+
 class ConvertTemperatures:
     base_measurement = ''
     output_measurement = ''
