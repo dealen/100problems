@@ -9,10 +9,10 @@ def convert(age):
     result = 0.0
     while birth_year < datetime.now().year:
         if isleap(birth_year):
-            year_value = 366.0
+            days_in_year = 366.0
         else:
-            year_value = 365.0
-        result += 24.00*3600.00*year_value
+            days_in_year = 365.0
+        result += 24.00*3600.00*days_in_year
         birth_year += 1
     return result
 
